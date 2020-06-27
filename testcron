@@ -1,0 +1,1 @@
+* * * * * flock -xn /tmp/lock.file -c 'sh -x /home/achui/serviceManger.sh healthcheck' >> /tmp/test 2>&1
